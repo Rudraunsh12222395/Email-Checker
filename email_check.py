@@ -9,8 +9,8 @@ def passwordcheck(password):
         return True
     else:
         return False
-email = input()
-password = input()
+email = input("Enter email: ")
+password = input("Enter password: ")
 if (emailcheck(email)==True):
     print("valid email")
 else:
